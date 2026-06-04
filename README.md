@@ -33,3 +33,9 @@ Deploy the complete system to Google Kubernetes Engine with Terraform for infra.
 1. **Fork** this repo
 2. Implement the solution
 3. Push to your fork — grading is automatic
+
+## Modificaciones
+
+Aviso, modifiqué el sanity.yml para que realice las instalaciones de terraform para que al correr los tests, el último pueda hacer las verificaciones correctamente.
+
+líneas 16 a 19: Crean el archivo terraform para permitir la prueba de que los archivos .tf estén correctamente formateados.
